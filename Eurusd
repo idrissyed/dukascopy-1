@@ -1,0 +1,2 @@
+python3 -m pip install pandas requests python-dateutil tqdm
+python dukascopy_fetch_and_resample.py --symbol EURUSD --start 2024-11-04 --end 2025-11-04 --out EURUSD_5m_20241104_20251104.csv
